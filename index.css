@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("background.png");
+    font-family: consolas, monospace;
+    font-weight: bold;
+    text-align: center;
+    margin: 0; 
+}
+
+.box {
+    width: 80%; 
+    max-width: 600px; 
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: #222222;
+    margin-top: 5rem;
+    padding: 1rem;
+}
+
+.timerBtn {
+    width: 80px;
+    height: 30px;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 12px;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+    font-family: consolas, monospace;
+}
+
+#timeDisplay {
+    font-size: 75px;
+    color: #40c437;
+    font-family: consolas, monospace;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#Sets {
+    color: #40c437;
+}
+
+#count-el {
+    font-size: 75px;
+    color: #40c437;
+    font-family: consolas, monospace;
+}
+
+#save-el {
+    color: #40c437;
+    letter-spacing: .1rem;
+    display: block;
+    margin-top: 10px;
+    white-space: pre-wrap;
+}
+
+#Set {
+    color: #40c437;
+    font-family: consolas, monospace;
+}

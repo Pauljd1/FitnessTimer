@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Timer</title>
+      <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+      <!--Timer-->
+      <div id="timeContainer" class="box">
+        <div id="timeDisplay">00:00:00</div>
+        <button id="startBtn" class="timerBtn">Start</button>
+        <button id="pauseBtn" class="timerBtn">Pause</button>
+        <button id="resetBtn" class="timerBtn">Reset</button>
+      </div>
+
+      <!--Sets-->
+
+      <div id="setsContainer" class="box">
+        <h1 id="Set">Sets:</h1>
+        <h2 id="count-el">0</h2>
+        <button id="increment-btn" class="timerBtn" onclick="increment()">
+          Set
+        </button>
+        <button id="save-btn" class="timerBtn" onclick="save()">Save</button>
+        <p id="save-el">Previous Sets:</p>
+      </div>
+
+      <script src="index.js"></script>
+    </body>
+  </html>
+</html>
